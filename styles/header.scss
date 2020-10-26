@@ -1,0 +1,25 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 25px;
+  margin-top: 75px;
+
+  .logo {
+    align-self: flex-start;
+  }
+  
+  .links {
+    align-self: flex-end;
+  
+    ul {
+      list-style: none;
+      display: inline;
+    }
+    li {
+      display: inline;
+      color: #9B9B9B;
+      margin-left: 20px;
+    }
+  }
+}
