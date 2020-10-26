@@ -1,5 +1,9 @@
 header {
-  background-color: #FAFAFA;
+  .sticky {
+    position: fixed;
+    width: 100%;
+    left: calc(50% - 1290px/2);
+  }
 }
 
 .navigation {
@@ -24,6 +28,10 @@ header {
       display: inline;
       color: #9B9B9B;
       margin-left: 20px;
+    }
+
+    a{
+      text-decoration: none;
     }
   }
 }
