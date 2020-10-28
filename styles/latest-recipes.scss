@@ -146,12 +146,44 @@
   
   }
 	.flexy{
-	height:339px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+		height:339px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
 		.down{
 				align-items: center;
 
+		}
+	}
+	.footer{
+		height:339px;
+		text-align:center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		
+		p{
+			font-family: Poppins;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 18px;
+			line-height: 17px;
+			align-items: center;
+			color: #000000;
+		}
+		a{
+			font-family: Poppins;
+			font-style: normal;
+			font-weight: 300;
+			font-size: 14px;
+			line-height: 21px;
+			letter-spacing: -0.291667px;
+			color: #D0D0D0;
+		}
+		img{
+			height:40px;
+			margin:30px 10px;
+
+		
 		}
 	}
