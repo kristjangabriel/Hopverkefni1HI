@@ -156,3 +156,152 @@
     }
   }
 }
+
+.Content-section {
+  background-color: #F7F1EB;
+  min-height: 670px;
+  height: 670px;
+  .Content-section-grid {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    overflow: visible;
+  }
+
+  .Content-section-content {
+    .Content-section-button button {
+      border:none;
+      background: transparent;
+    }
+
+    .Content-section-title {
+      font-family: Playfair Display;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 30px;
+      line-height: 80px;
+      color: #000;
+    }
+
+    .Content-section-text {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 32px;
+      color:#5E5B69;
+      margin-bottom: 30px;
+    }
+  }
+
+  .Content-section-image img {
+    max-height: 607.62px;
+  }
+
+  .Content-section-image {
+    margin-top: 220px; 
+  }
+}
+.Video-section {
+  min-height: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &-title {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 53px;
+    color: #D0D0D0;
+
+    span {
+      color: #000;
+    }
+  }
+
+  .row {
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+  }
+
+  .recipe {
+    background-color: #FFF;
+    margin-bottom: 20px;
+    &-image {
+      overflow: hidden;
+      width: 100%;
+      height: 230px;
+
+      img {
+        object-fit: cover;
+      }
+
+      .image1 {
+        height: 573px;
+      }
+      .image2 {
+        height: 230;
+      }
+    }
+
+    &-kicker {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 21px;
+      padding-left: 24px;
+      padding-top: 25px;
+    }
+
+    &-text {
+      display: flex;
+      justify-content: space-between;
+      padding-left: 24px;
+      padding-bottom: 22.69px;
+
+      &-title {
+        font-family: Playfair Display;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 29px;
+      }
+
+      &-button a {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #E3CDB1;
+        text-decoration: none;
+        padding-right: 26px;
+      }
+    }
+  }
+  .see-more {
+    display: flex;
+    justify-content: center;
+
+    button {
+      border:none;
+      background: transparent;
+    }
+    .rect1 {
+      background-color:#E7E7E7;
+      width: 441px;
+      height: 1px;
+      transform: translateX(-79px) translateY(26px);
+    }
+    .rect2 {
+      background-color:#E7E7E7;
+      width: 441px;
+      height: 1px;
+      transform: translateX(79px) translateY(26px);
+    }
+  }
+}
