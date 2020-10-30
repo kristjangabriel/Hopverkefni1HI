@@ -1,129 +1,123 @@
-.navigation2{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom:2rem;
-  
-  }
-  .Latest-recipe-section {
-  min-height: 1256px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-	
-	&-kicker{
+	.navigation2{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom:2rem;
 		@media (max-width: 800px) {
-		text-align:center;
-	}
-	
-	}
-  
-  .title{
-	font-family: Playfair Display;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 30px;
-    line-height: 80px;
-	align-self: flex-start;
-	text-align:center;
-	
-  }
-  .right{
-	font-family: Playfair Display;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 22px;
-    line-height: 40px;
-	text-align:right;
-    align-self: flex-end;
-	img{
-		margin-right:1rem;
-	}
-	@media (max-width: 800px) {
-		display:none;
-	}
-  }
-}
-  .row {
-    display: flex;
-    align-items: stretch;
-    flex-wrap: wrap;
-	 justify-content: center;
-  }
-  .recipe {
-    background-color: #F6F6F6;
-    margin-bottom: 20px;
-    .image {
-      overflow: hidden;
-      width: 100%;
-      height: 290px;
-	  @media (max-width: 500px) {
-			height:206px;
-		}
-	img{
-		width: 100%;
-        height: 290px;
-		object-fit: cover;
-		@media (max-width: 500px) {
-			height:206px;
+			justify-content:center;
 		}
 	}
-
-    }
-	
-    .september {
-      font-family: Poppins;
-      font-style: normal;
-      font-weight: 300;
-      font-size: 14px;
-      line-height: 21px;
-      padding-left: 24.79px;
-      padding-top: 25px;
-		@media (max-width: 500px) {
-			padding-left: 13px;
-			font-size: 12px;
+	.Latest-recipe-section {
+		min-height: 1256px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		
+		&-kicker{
+			padding-top:100px;
+			@media (max-width: 800px) {
+				text-align:center;
+			}
 		}
-    }
-
-    .text {
-      display: flex;
-      justify-content: space-between;
-      padding-bottom: 22.69px;
-	  @media (max-width: 500px) {
-			padding-bottom:16px;
+		.title{
+			font-family: Playfair Display;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 30px;
+			line-height: 80px;
+			align-self: flex-start;
+			text-align:center;
+		}
+		.right{
+			font-family: Playfair Display;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 22px;
+			line-height: 40px;
+			text-align:right;
+			align-self: flex-end;
+			img{
+				margin-right:1rem;
+			}
+			@media (max-width: 800px) {
+				display:none;
+			}
 		}
 	}
-      .text-title {
-        font-family: Playfair Display;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 22px;
-        line-height: 29px;
-		padding-left: 24px;
-		@media (max-width: 500px) {
-			font-size: 18px;
-			padding-left: 13px;
+	.row {
+		display: flex;
+		align-items: stretch;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.recipe {
+		background-color: #F6F6F6;
+		margin-bottom: 20px;
+		.image {
+			overflow: hidden;
+			width: 100%;
+			height: 290px;
+			@media (max-width: 500px) {
+				height:206px;
+			}
+			img{
+				width: 100%;
+				height: 290px;
+				object-fit: cover;
+				@media (max-width: 500px) {
+					height:206px;
+				}
+			}
 		}
-      }
-
-      .text-button a {
-        font-family: Poppins;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 24px;
-        color: #E3CDB1;
-        text-decoration: none;
-        padding-right: 26px;
-		@media (max-width: 500px) {
-			padding-right: 13px;
+		.september {
+			font-family: Poppins;
+			font-style: normal;
+			font-weight: 300;
 			font-size: 14px;
 			line-height: 21px;
-
+			padding-left: 24.79px;
+			padding-top: 25px;
+			@media (max-width: 500px) {
+				padding-left: 13px;
+				font-size: 12px;
+			}
 		}
-      }
-    
-  }
+		.text {
+			display: flex;
+			justify-content: space-between;
+			padding-bottom: 22.69px;
+			@media (max-width: 500px) {
+				padding-bottom:16px;
+			}
+		}
+		.text-title {
+			font-family: Playfair Display;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 22px;
+			line-height: 29px;
+			padding-left: 24px;
+			@media (max-width: 500px) {
+				font-size: 18px;
+				padding-left: 13px;
+			}
+		}
+		.text-button a {
+			font-family: Poppins;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 16px;
+			line-height: 24px;
+			color: #E3CDB1;
+			text-decoration: none;
+			padding-right: 26px;
+			@media (max-width: 500px) {
+				padding-right: 13px;
+				font-size: 14px;
+				line-height: 21px;
+			}
+		}
+	}
 	.see-more-lr{
 		padding-bottom:62px;
 		padding-top:30px;
@@ -131,4 +125,5 @@
 			padding-bottom:34px;
 		}
 	}	
- 
+	
+	
