@@ -156,3 +156,40 @@
     }
   }
 }
+
+.Content-section {
+  background-color: #F7F1EB;
+  min-height: 670px;
+  height: 670px;
+  .Content-section-grid {
+    display: flex;
+    align-items: center;
+    height: 100%
+  }
+
+  .Content-section-content {
+    .Content-section-button button {
+      border:none;
+      background: transparent;
+    }
+
+    .Content-section-title {
+      font-family: Playfair Display;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 30px;
+      line-height: 80px;
+      color: #000;
+    }
+
+    .Content-section-text {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 32px;
+      color:#5E5B69;
+      margin-bottom: 30px;
+    }
+  }
+}
