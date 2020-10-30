@@ -3,12 +3,20 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom:2rem;
+  
   }
   .Latest-recipe-section {
   min-height: 1256px;
   display: flex;
   align-items: center;
   justify-content: center;
+	
+	&-kicker{
+		@media (max-width: 800px) {
+		text-align:center;
+	}
+	
+	}
   
   .title{
 	font-family: Playfair Display;
@@ -17,6 +25,8 @@
     font-size: 30px;
     line-height: 80px;
 	align-self: flex-start;
+	text-align:center;
+	
   }
   .right{
 	font-family: Playfair Display;
@@ -29,12 +39,16 @@
 	img{
 		margin-right:1rem;
 	}
+	@media (max-width: 800px) {
+		display:none;
+	}
   }
 }
   .row {
     display: flex;
     align-items: stretch;
     flex-wrap: wrap;
+	 justify-content: center;
   }
   .recipe {
     background-color: #F6F6F6;
@@ -110,5 +124,11 @@
       }
     
   }
-  
+	.see-more-lr{
+		padding-bottom:62px;
+		padding-top:30px;
+		@media (max-width: 500px) {
+			padding-bottom:34px;
+		}
+	}	
  
