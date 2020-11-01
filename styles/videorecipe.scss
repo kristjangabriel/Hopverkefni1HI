@@ -1,4 +1,4 @@
-body{
+.bodyVR{
 
 	width: 1600px;
 	margin-left:auto;
@@ -10,12 +10,8 @@ body{
 	display:flex;
 }
 
-.test{
-	background-color:lightgray;
-}
-
 /*hero section*/
-main{
+.mainVR{
 	background: linear-gradient(270deg, rgba(0, 0, 0, 0.0001) 0%, #000000 100%), url(images/Video.png), black;
 	background-repeat: no-repeat;
 	background-position: right;
@@ -66,7 +62,6 @@ main{
 	height:500px;
 	padding-left: 150px;
 	padding-bottom:0px;
-	margin-right: 
 	justify-content: center;
 }
 .methodleft div{
@@ -98,7 +93,7 @@ main{
 	font-size: 1.05rem;
 
 }
-.methodright{
+.methodright{	
 	width:100%;
 	padding-left: 250px;
 	padding-right: 150px;
@@ -135,7 +130,7 @@ main{
 	line-height: 53px;
 	margin-bottom:50px;
 }
-.h2{
+.h2VR{
 	margin-right: 10px;
 	color: #D0D0D0;
 }
