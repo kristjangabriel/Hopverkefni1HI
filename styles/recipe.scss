@@ -13,11 +13,29 @@
   }
 
   .Recipe-content {
-    .Recipe-button button {
-      border:none;
-      background: transparent;
-    }
-
+    .Recipe-things{
+		display:flex;
+		padding-top:21px;
+		p{
+			padding-right:36px;
+			font-family: Poppins;
+			font-style: normal;
+			font-weight: 300;
+			font-size: 18px;
+			line-height: 32px;
+			color:#5E5B69;
+			margin-bottom: 30px;	
+		}
+		span{
+				color: #000;
+				font-weight: 400;
+			}
+		img{
+		height:24px;
+		padding-right:12px;
+		}
+	
+	}
     .Recipe-title {
       font-family: Playfair Display;
       font-style: normal;
