@@ -2,7 +2,7 @@ header{
   width: 100%;
   height: 80px;
   position: fixed;
-  background-color: #FAFAFA;
+  background-color: rgba(0,0,0,0);
 }
 
 .navigation {
@@ -33,8 +33,4 @@ header{
       text-decoration: none;
     }
   }
-}
-
-header + * {
-  padding-top:80px
 }
