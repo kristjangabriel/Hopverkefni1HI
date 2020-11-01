@@ -1,8 +1,6 @@
-var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
-  var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementById("myHeader").style.backgroundColor = "#FAFAFA";
+  if ($(window).scrollTop() < 50) {
+    document.getElementById("myHeader").style.backgroundColor = "rgba(0,0,0,0)";
   } else {
     document.getElementById("myHeader").style.backgroundColor = "#FFFFFF";
   }
