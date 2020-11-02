@@ -6,3 +6,9 @@ window.onscroll = function() {
   }
   prevScrollpos = currentScrollPos;
 }
+
+function dropdown() {
+  document.getElementById("dropdownLinks").classList.toggle("show");
+  document.getElementById("burger-menu").classList.toggle("show-close");
+  document.getElementById("myHeader").style.backgroundColor = "#FFFFFF";
+}

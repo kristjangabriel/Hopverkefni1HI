@@ -23,13 +23,23 @@
             <a href="#"><li>About us</li></a>
           </ul>
         </nav>
+        <nav onclick="dropdown()" class="burger-menu" id="burger-menu">
+          <div id="dropdownLinks" class="dropdown-content">
+            <div class="dropdown-container">
+              <a href="#">Home</a>
+              <a href="pages/latestRecipes.html">Recipes</a>
+              <a href="#">Videos</a>
+              <a href="#">About us</a>
+            </div>
+          </div>
+        </nav>
       </div>
     </div>
   </header>
   <main>
     <div class="Hero-section">
       <div class="Hero-grid grid">
-        <div class="Hero-content col-6">
+        <div class="Hero-content col-6 col-sm-12 col-md-8">
           <div class="Hero-kicker kicker">Our latest recipe</div>
           <div class="Hero-title"><h1>Pumpkin pie</h1></div>
           <div class="Hero-text">
@@ -47,39 +57,10 @@
     <div class="Rectangle"></div>
     <div class="Latest-recipe-section">
       <div class="grid">
-        <div class="Latest-recipe-section-kicker kicker">Get ready to get busy</div>
-        <div class="Latest-recipe-section-title"><h2>Check out our <span>latest recipes</span></h2></div>
-        <div class="row">
-          <div class="col col-4 col-md-6 col-sm-12">
-            <div class="recipe">
-              <div class="recipe-image"><img src="img/lax-sushi-roles.png"></div>
-              <div class="recipe-kicker">September</div>
-              <div class="recipe-text">
-                <div class="recipe-text-title">Lax sushi roles</div>
-                <div class="recipe-text-button"><a href="#">Read more</a></div>
-              </div>
-            </div>
-          </div>
-          <div class="col col-4 col-md-6 col-sm-12">
-            <div class="recipe">
-              <div class="recipe-image"><img src="img/lax-sushi-roles.png"></div>
-              <div class="recipe-kicker">September</div>
-              <div class="recipe-text">
-                <div class="recipe-text-title">Lax sushi roles</div>
-                <div class="recipe-text-button"><a href="#">Read more</a></div>
-              </div>
-            </div>
-          </div>
-          <div class="col col-4 col-md-6 col-sm-12">
-            <div class="recipe">
-              <div class="recipe-image"><img src="img/lax-sushi-roles.png"></div>
-              <div class="recipe-kicker">September</div>
-              <div class="recipe-text">
-                <div class="recipe-text-title">Lax sushi roles</div>
-                <div class="recipe-text-button"><a href="#">Read more</a></div>
-              </div>
-            </div>
-          </div>
+        <div class="Latest-recipe-section-text">
+          <div class="Latest-recipe-section-kicker kicker">Get ready to get busy</div>
+          <div class="Latest-recipe-section-kicker-small kicker">All the news are here</div>
+          <div class="Latest-recipe-section-title"><h2>Check out our <span>latest recipes</span></h2></div>
         </div>
         <div class="row">
           <div class="col col-4 col-md-6 col-sm-12">
@@ -89,6 +70,18 @@
               <div class="recipe-text">
                 <div class="recipe-text-title">Lax sushi roles</div>
                 <div class="recipe-text-button"><a href="#">Read more</a></div>
+                <div class="recipe-text-button-small"><a href="#">See</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="col col-4 col-md-6 col-sm-12 ">
+            <div class="recipe">
+              <div class="recipe-image"><img src="img/lax-sushi-roles.png"></div>
+              <div class="recipe-kicker">September</div>
+              <div class="recipe-text">
+                <div class="recipe-text-title">Lax sushi roles</div>
+                <div class="recipe-text-button"><a href="#">Read more</a></div>
+                <div class="recipe-text-button-small"><a href="#">See</a></div>
               </div>
             </div>
           </div>
@@ -99,6 +92,20 @@
               <div class="recipe-text">
                 <div class="recipe-text-title">Lax sushi roles</div>
                 <div class="recipe-text-button"><a href="#">Read more</a></div>
+                <div class="recipe-text-button-small"><a href="#">See</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row recipes2">
+          <div class="col col-4 col-md-6 col-sm-12">
+            <div class="recipe">
+              <div class="recipe-image"><img src="img/lax-sushi-roles.png"></div>
+              <div class="recipe-kicker">September</div>
+              <div class="recipe-text">
+                <div class="recipe-text-title">Lax sushi roles</div>
+                <div class="recipe-text-button"><a href="#">Read more</a></div>
+                <div class="recipe-text-button-small"><a href="#">See</a></div>
               </div>
             </div>
           </div>
@@ -109,6 +116,18 @@
               <div class="recipe-text">
                 <div class="recipe-text-title">Lax sushi roles</div>
                 <div class="recipe-text-button"><a href="#">Read more</a></div>
+                <div class="recipe-text-button-small"><a href="#">See</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="col col-4 col-md-6 col-sm-12">
+            <div class="recipe">
+              <div class="recipe-image"><img src="img/lax-sushi-roles.png"></div>
+              <div class="recipe-kicker">September</div>
+              <div class="recipe-text">
+                <div class="recipe-text-title">Lax sushi roles</div>
+                <div class="recipe-text-button"><a href="#">Read more</a></div>
+                <div class="recipe-text-button-small"><a href="#">See</a></div>
               </div>
             </div>
           </div>
@@ -135,7 +154,7 @@
             <button class="button"><img src="img/See More - Button.svg" alt="See more"></button>
           </div>
         </div>
-        <div class="Content-section-image-container col-3">
+        <div class="Content-section-image-container col-3 col-sm-12">
           <div class="Content-section-image">
             <img src="img/book.png" alt="the cover of our new book">
           </div>
@@ -145,12 +164,10 @@
     <div class="Video-section">
       <div class="Video-section-grid grid">
         <div class="Video-section-text col col-12">
-          <div class="Video-section-kicker kicker">
-            Want some action?
-          </div>
-          <div class="Video-section-title">
-            <h2>Check out our <span>video recipes</span></h2>
-          </div>
+          <div class="Video-section-kicker kicker">Want some action?</div>
+          <div class="Video-section-kicker-small kicker">All the news are here</div>
+          <div class="Video-section-title"><h2>Check out our <span>video recipes</span></h2></div>
+          <div class="Video-section-title-small"><h2>Check out our <span>latest recipes</span></h2></div>
         </div>
         <div class="row">
           <div class="col col-4 col-md-6 col-sm-12">
