@@ -6,8 +6,7 @@
 		height: 800px;
 		min-height: 800px;
 		@media (max-width: 800px) {
-			height: 550px;
-			min-height: 550px;
+			background-position: 0%;
 		}
 	.Recipe-grid {
 		display: flex;
@@ -89,6 +88,12 @@
 }
 .actualrecipe{
 	padding-left:15px;
+	display:flex;
+	@media (max-width: 800px) {
+		flex-direction:column;
+		width:264px;
+		margin-left:26px;
+	}
 	h4{
 		font-family: Playfair Display;
 		font-style: normal;
@@ -96,6 +101,11 @@
 		font-size: 40px;
 		line-height: 53px;
 		color: #D0D0D0;
+		padding-top:40px;
+		@media (max-width: 800px) {
+			font-size: 20px;
+			line-height: 27px;
+		}
 	}
 	h5{
 		font-family: Poppins;
@@ -105,9 +115,46 @@
 		line-height: 17px;	
 		color: #000000;
 		padding-top:40px;
+		@media (max-width: 800px) {
+			font-size: 16px;
+			line-height: 17px;
+		}
 	}
 	.tdr{
 		display:flex;
-	
+		padding-top:20px;
+		img{
+		padding-right:40px;
+		}
+		p{
+			font-family: Poppins;
+			font-style: normal;
+			font-weight: 300;
+			font-size: 18px;
+			line-height: 17px;
+			color: #9B9B9B;
+		}
+	}
+	.txt{
+		padding-top:35px;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: 300;
+		font-size: 18px;
+		line-height: 32px;
+		color: #5E5B69;
+		@media (max-width: 800px) {
+			font-size: 15px;
+			line-height: 25px;
+			.d{
+				display:none;
+			}
+		}
+		p{
+            margin-bottom: 15px; 
+		}
+		.m{
+			margin-bottom: 45px; 
+		}
 	}
 }
