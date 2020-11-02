@@ -76,6 +76,9 @@
       color: #000;
     }
   }
+    .Latest-recipe-section-kicker-small {
+      display: none;
+    }
 
   .row {
     display: flex;
@@ -106,10 +109,6 @@
       line-height: 21px;
       padding-left: 24px;
       padding-top: 25px;
-
-      &-small {
-        display: none;
-      }
     }
 
     &-text {
