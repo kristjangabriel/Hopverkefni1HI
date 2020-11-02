@@ -1,0 +1,58 @@
+.Recipe-section {
+  background-image: url("../img/cake-background.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-color: #FAFAFA;
+  height: 800px;
+  min-height: 800px;
+
+  .Recipe-grid {
+    display: flex;
+    align-items: center;
+    height: 100%
+  }
+
+  .Recipe-content {
+    .Recipe-things{
+		display:flex;
+		padding-top:21px;
+		p{
+			padding-right:36px;
+			font-family: Poppins;
+			font-style: normal;
+			font-weight: 300;
+			font-size: 18px;
+			line-height: 32px;
+			color:#5E5B69;
+			margin-bottom: 30px;	
+		}
+		span{
+				color: #000;
+				font-weight: 400;
+			}
+		img{
+		height:24px;
+		padding-right:12px;
+		}
+	
+	}
+    .Recipe-title {
+      font-family: Playfair Display;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 30px;
+      line-height: 80px;
+      color: #000;
+    }
+
+    .Recipe-text {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 32px;
+      color:#5E5B69;
+      margin-bottom: 30px;
+    }
+  }
+}

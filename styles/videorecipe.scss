@@ -3,7 +3,6 @@
 	width: 1600px;
 	margin-left:auto;
 	margin-right:auto;
-	padding:0px;
 }
 
 .flex {
@@ -12,7 +11,7 @@
 
 /*hero section*/
 .mainVR{
-	background: linear-gradient(270deg, rgba(0, 0, 0, 0.0001) 0%, #000000 100%), url(images/Video.png), black;
+	background: linear-gradient(270deg, rgba(0, 0, 0, 0.0001) 0%, #000000 100%), url(../img/67b35cb3b5600db0e84db750b8bc17ce.png), black;
 	background-repeat: no-repeat;
 	background-position: right;
 	background-size: 1600px 570px, 1000px 570px;
@@ -23,16 +22,17 @@
 	width:400px;
 	padding-top:125px;
 	margin-left: 150px;
+
+	h1{
+	color:white;
+	font-size: 3.5rem;
+	}
+
 }
 .textimgv{
 	color:white;
 	margin-right:10px;
 	margin-left:10px;
-}
-.textiVideo h1{
-	color:white;
-	font-size: 3.5rem;
-	height:35px;
 }
 .textV{
 	width:450px;
@@ -63,15 +63,16 @@
 	padding-left: 150px;
 	padding-bottom:0px;
 	justify-content: center;
-}
-.methodleft div{
+
+	div{
 	margin:0;
-}
-.methodleft h4{
+	}
+
+	h4{
 	color:rgba(208, 208, 208, 1);
 	font-size: 2.5rem;
 	height:20px;
-
+	}
 }
 .ingredientsFor{
 	height:0px;
@@ -81,17 +82,18 @@
 .recipeDesc{
 
 	height:35px;
-}
-.recipeDesc img{
+
+	img{
 	margin-top:18px;
 	margin-right:50px;
 	height:15px;
 	width:10px;
-}
-.recipeDesc p{
+	}
+
+	p{
 	color:#9B9B9B;
 	font-size: 1.05rem;
-
+	}
 }
 .methodright{	
 	width:100%;
@@ -99,37 +101,42 @@
 	padding-right: 150px;
 	line-height: 30px;
 	font-size: 1.05rem;
-}
-.methodright h4{
+
+	h4{
 	color:rgba(208, 208, 208, 1);
 	font-size:2.5rem;
-
+	}
 }
+
 .rightText{
 	color:rgba(94, 91, 105, 1);
 }
 
 /*video recipe*/
+
 .video-recipe-section{
 	padding-left:150px;
 	padding-right:150px;
-}
-.video-recipe-section div{
+
+	div{
 	justify-content: space-between;
-}
-.video-recipe-section p{
+	}
+
+	p{
 	color:rgba(227, 205, 177, 1);
 	font-size: 1.2rem;
-	height:0px;
-}
-.video-recipe-section h2{
+	}
+
+	h2{
 	font-family: Playfair Display;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 2.5rem;
 	line-height: 53px;
 	margin-bottom:50px;
+	}
 }
+
 .h2VR{
 	margin-right: 10px;
 	color: #D0D0D0;
@@ -147,7 +154,6 @@
 .cardText{
 	padding-right: 10px;
 	padding-left: 20px;
-	height:5px;
 	color: rgba(155, 155, 155, 1);
 }
 .cardText2{
@@ -155,14 +161,16 @@
 	padding-right: 20px;
 	padding-left: 20px;
 	font-size: 0.95rem;
-}
-.cardText2 p{
+
+	p{
 	font-size: 1.2rem;
 	margin-top: 35px;
 	color:rgba(227, 205, 177, 1);
-}
-.cardText2 h4{
+	}
+
+	h4{
 	font-size:1.5rem;
+	}
 }
 
 .containerBtn {
