@@ -1,58 +1,113 @@
-.Recipe-section {
-  background-image: url("../img/cake-background.png");
-  background-repeat: no-repeat;
-  background-position: bottom right;
-  background-color: #FAFAFA;
-  height: 800px;
-  min-height: 800px;
-
-  .Recipe-grid {
-    display: flex;
-    align-items: center;
-    height: 100%
-  }
-
-  .Recipe-content {
-    .Recipe-things{
-		display:flex;
-		padding-top:21px;
-		p{
-			padding-right:36px;
+	.Recipe-section {
+		background-image: url("../img/cake-background.png");
+		background-repeat: no-repeat;
+		background-position: bottom right;
+		background-color: #FAFAFA;
+		height: 800px;
+		min-height: 800px;
+		@media (max-width: 800px) {
+			height: 550px;
+			min-height: 550px;
+		}
+	.Recipe-grid {
+		display: flex;
+		align-items: center;
+		height: 100%;
+		@media (max-width: 800px) {
+			justify-content:center;
+			width:270px;
+		}
+	}
+	.Recipe-content {
+		padding-left:30px;
+		.Recipe-title {
+			font-family: Playfair Display;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 30px;
+			line-height: 80px;
+			color: #000;
+			@media (max-width: 800px) {
+				font-size: 16px;
+				line-height: 43px;
+				text-align:center;
+			}
+		}
+		.Recipe-things{
+			display:flex;
+			padding-top:21px;
+			@media (max-width: 800px) {
+				flex-direction:column;
+				padding-left:20px;
+				.a{
+					display:flex;
+				}
+			}
+			p{
+				padding-right:36px;
+				font-family: Poppins;
+				font-style: normal;
+				font-weight: 300;
+				font-size: 18px;
+				line-height: 32px;
+				color:#5E5B69;
+				margin-bottom: 30px;	
+			}
+			span{
+				color: #000;
+				font-weight: 400;
+				}
+			img{
+				height:24px;
+				padding-right:12px;
+			}
+		
+		}
+		.Recipe-text {
 			font-family: Poppins;
 			font-style: normal;
 			font-weight: 300;
 			font-size: 18px;
 			line-height: 32px;
 			color:#5E5B69;
-			margin-bottom: 30px;	
-		}
-		span{
-				color: #000;
-				font-weight: 400;
+			margin-bottom: 30px;
+			.away{
+				font-size: 15px;
+				line-height: 24px;
+				text-align:center;
+				@media (min-width: 800px) {
+					display:none;
+				}
 			}
-		img{
-		height:24px;
-		padding-right:12px;
+			.naway{
+				@media (max-width: 800px) {
+					display:none;
+				}
+			}
 		}
+	}
+}
+.actualrecipe{
+	padding-left:15px;
+	h4{
+		font-family: Playfair Display;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 40px;
+		line-height: 53px;
+		color: #D0D0D0;
+	}
+	h5{
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 17px;	
+		color: #000000;
+		padding-top:40px;
+	}
+	.tdr{
+		display:flex;
 	
 	}
-    .Recipe-title {
-      font-family: Playfair Display;
-      font-style: normal;
-      font-weight: bold;
-      font-size: 30px;
-      line-height: 80px;
-      color: #000;
-    }
-
-    .Recipe-text {
-      font-family: Poppins;
-      font-style: normal;
-      font-weight: 300;
-      font-size: 18px;
-      line-height: 32px;
-      color:#5E5B69;
-      margin-bottom: 30px;
-    }
-  }
 }

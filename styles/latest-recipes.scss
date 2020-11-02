@@ -43,13 +43,14 @@
 				display:none;
 			}
 		}
-	}
-	.row {
+		.row {
 		display: flex;
 		align-items: stretch;
 		flex-wrap: wrap;
 		justify-content: center;
+		}
 	}
+	
 	.recipe {
 		background-color: #F6F6F6;
 		margin-bottom: 20px;
