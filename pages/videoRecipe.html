@@ -1,196 +1,200 @@
 <!doctype html>
-<html lang="is">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <title>Hópverkefni</title>
-    <link rel="stylesheet" href="../css/steinn.css">
     <link rel="stylesheet" href="../css/styles.css">
     <meta content="width=device-width, initial-scale=1" name="viewport" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="../js/scroll.js"></script>
   </head>
-  <body class="bodyVR223">
+  <body>
 
   		<!-- Navigation Bar Starts Here -->
-			<header class="makeitwhite" id="myHeader">
-				<div class="grid">
-					<div class ="navigation">
-						<div class ="logo">
-							<a href="../index.html"><img src="../img/Logotype.svg" alt="Yum&Yum"></a>
-						</div>
-						<nav class="links">
-							<ul>
-								<a href="../pages/latestRecipes.html"><li>Recipes</li></a>
-								<a href="#"><li>Videos</li></a>
-								<a href="#"><li>About us</li></a>
-							</ul>
-						</nav>
-						<nav onclick="dropdown()" class="burger-menu" id="burger-menu">
-							<div id="dropdownLinks" class="dropdown-content">
-								<div class="dropdown-container">
-									<a href="../index.html">Home</a>
-									<a href="../pages/latestRecipes.html">Recipes</a>
-									<a href="#">Videos</a>
-									<a href="#">About us</a>
-								</div>
-							</div>
-						</nav>
-					</div>
-				</div>
-			</header>
+	<header id="myHeader">
+    <div class="grid">
+      <div class ="navigation">
+        <div class ="logo">
+          <a href="../index.html"><img src="../img/Logotype.svg" alt="Yum&Yum"></a>
+        </div>
+        <nav class="links">
+          <ul>
+            <a href="../pages/latestRecipes.html"><li>Recipes</li></a>
+            <a href="#"><li>Videos</li></a>
+            <a href="#"><li>About us</li></a>
+          </ul>
+        </nav>
+        <nav onclick="dropdown()" class="burger-menu" id="burger-menu">
+          <div id="dropdownLinks" class="dropdown-content">
+            <div class="dropdown-container">
+              <a href="../index.html">Home</a>
+              <a href="../pages/latestRecipes.html">Recipes</a>
+              <a href="#">Videos</a>
+              <a href="#">About us</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
 	<!-- Navigation Bar Ends Here -->
 
-  	<main class="main223 flex223">
-  		<!-- hero section með mynd hægra meginn og svo texta + mynd af takkanum vinstra meginn -->
-  		<div class="textiVideo223">
-  			<h1>Pumpkin pie</h1>
-  			<div>
-  				<div class='flex223'>
-  					<img src="../img/Level-Icon.png" alt="">
-  					<p class='textimgv223'>Easy Recipe</p>
-  					<img src="../img/Servings-Icon.png" alt="">
-  					<p class='textimgv223'>6 people</p>
-  					<img src="../img/Preparation-Icon.png" alt="">
-  					<p class="textimgv223">1 hour</p>
-  				</div>
-  				<div>
-            <p class='textV223'>Pumkin pie is the sweet dessert pie with a spiced pumpkin-based custard filling. The pumpkin is a symbol of harvest time and pumpkin pie is often eaten during the fall and early winter.</p>
+  	<main class="test">
+	<div class="Videot-section">
+      <div class="Recipe-grid grid">
+	  <div class="row">
+        <div class="Recipe-content col-5 col-md-12 col-sm-12">
+          <div class="Recipe-title row"><h1>Pumpkin pie</h1></div>
+		  <div class="Recipe-text"><p class="away">As you pour the first glass of your favorite Chianti or Chardonnay</p></class></div>
+		  <div class="Recipe-things row">
+		  <div class="a"><img src="../img/Level-Icon.png"><p>Easy recipe</p></div>
+		  <div class="a"><img src="../img/Servings-Icon.png"><p>6 people</p></div>
+		  <div class="a"><img src="../img/Preparation-Icon.png"><p>1 hour</p></div>
+		  </div>
+          <div class="Recipe-text row">
+            <p class="naway">Pumpkin pie is a sweet dessert pie with a spiced, 
+              pumpkin-based custard filling. The pumpkin is a symbol of 
+              harvest time, and pumpkin pie is often eaten during the fall
+              and early winter.</p>
           </div>
-  			</div>
-  		</div>
+        </div>
+      </div>
+	</div>
+	</div>
         <img src="../img/play.png" alt="play button" class="playbtn223">
-  	</main>
+  	
 
-  	<section class="methodcontainer223 flexDV223">
-  		<div class="methodleft223">
+  	<div class="grid">
+	<div class="row actualrecipe">
+  		<div class="col-4 col-md-12 col-sm-12">
   			<h4>Ingredients</h4>
-  			<h5 class='ingredientsFor223'>For the dough</h5>
+  			<h5>For the dough</h5>
   			<div>
-  				<div class="flex223 recipeDesc223">
-  					<img src="../img/1.png"> 
-  					<p>tbs of water</p>
-  				</div>
-  				<div class="flex223 recipeDesc223">
+  				<div class="tdr">
   					<img src="../img/1.png">
   					<p>tbs of water</p>
   				</div>
-  				<div class="flex223 recipeDesc223">
+  				<div class="tdr">
   					<img src="../img/2.png">
   					<p>cups of flour</p>
   				</div>
-  				<div class="flex223 recipeDesc223">
+  				<div class="tdr">
   					<img src="../img/2.png">
   					<p>eggs</p>
   				</div>
-  				<div class="flex223 recipeDesc223">
+  				<div class="tdr">
   					<img src="../img/1.png">
   					<p>cup of sugar</p>
   				</div>
   			</div>
-  			<h5 class="ingredientsFor223">For the filling</h5>
+  			<h5>For the filling</h5>
   			<div>
-  				<div class="flex223 recipeDesc223">
+
+  				<div class="tdr">
   					<img src="../img/1.png">
   					<p>tbs of water</p>
   				</div>
-  				<div class="flex223 recipeDesc223">
-  					<img src="../img/1.png">
-  					<p>tbs of water</p>
-  				</div>
-  				<div class="flex223 recipeDesc223">
+  				<div class="tdr">
   					<img src="../img/2.png">
   					<p>cups of flour</p>
   				</div>
-  				<div class="flex223 recipeDesc223">
+  				<div class="tdr">
   					<img src="../img/2.png">
   					<p>eggs</p>
   				</div>
-  				<div class="flex223 recipeDesc223">
+  				<div class="tdr">
   					<img src="../img/1.png">
   					<p>cup of sugar</p>
   				</div>
   			</div>
   		</div>
-  		<div class="methodright223">
-  			<div>
-  				<h4>The method</h4>
+  		<div class="col-8 col-md-12 col-sm-12">
+  			<div class="method">
+  				<h4 class="a">The method</h4>
+				<h4 class="b">Method</h4>
   			</div>
-  			<div>
+  			<div class="txt">
   				<p>
   					Wrap the crackers in a tea towel and smash up until fine, breaking up any big bits with your hands, and put them into a large bowl.
   				</p>
-				  <p> 
-				    Finely chop the parsley, including the stalks. Add the parsley, mustard, if using, and minced beef to the bowl. Crack in the egg and add a good pinch of salt and pepper.
-				  </p>
-				  <p>
-					  With clean hands, scrunch and mix everything up well. Divide into 6 and pat and mould each piece into a roundish shape about 2cm thick. Drizzle the burgers with oil, put on a plate, cover and place in the fridge until needed (this helps them to firm up).
-				  </p>
+				<p> 
+					Finely chop the parsley, including the stalks. Add the parsley, mustard, if using, and minced beef to the bowl. Crack in the egg and add a good pinch of salt and pepper.
+				</p>
+				<p class="m">
+					With clean hands, scrunch and mix everything up well. Divide into 6 and pat and mould each piece into a roundish shape about 2cm thick. Drizzle the burgers with oil, put on a plate, cover and place in the fridge until needed (this helps them to firm up).
+				</p>
 
-				  <p>
-				  	Preheat a large griddle or frying pan for about 4 minutes on a high heat. Turn the heat down to medium.
-				  </p>
-				  <p>
-				  	Place the burgers on the griddle or in the pan and use a spatula to lightly press down on them, making sure the burger is in full contact. Cook them to your liking for 3 or 4 minutes on each side – you may need to cook them in two batches.
-				  </p>
+				<p class="d">
+					Preheat a large griddle or frying pan for about 4 minutes on a high heat. Turn the heat down to medium.
+				</p>
+				<p class="m d">
+					Place the burgers on the griddle or in the pan and use a spatula to lightly press down on them, making sure the burger is in full contact. Cook them to your liking for 3 or 4 minutes on each side – you may need to cook them in two batches.
+				</p class="d">
 
-				  <p>
-				  	Wash and dry a few small lettuce leaves, tearing up the larger ones. Slice the tomatoes. Peel and finely slice the red onion. Slice the gherkins lengthways as finely as you can. Place all this on a platter and put in the middle of the table with plates, cutlery, ketchup and drinks.
-				  </p>
-				  <p>
-				  	Remove your burgers to another plate and carefully wipe your pan or griddle clean with kitchen paper.
-				  </p>
-				  <p>
-				  	Halve your burger buns and lightly toast them on the griddle or in the pan. Also great with a chopped salad.
-				  </p>
-			  </div>
+				<p>
+					Wash and dry a few small lettuce leaves, tearing up the larger ones. Slice the tomatoes. Peel and finely slice the red onion. Slice the gherkins lengthways as finely as you can. Place all this on a platter and put in the middle of the table with plates, cutlery, ketchup and drinks.
+				</p>
+				<p class="d">
+					Remove your burgers to another plate and carefully wipe your pan or griddle clean with kitchen paper.
+				</p>
+				<p class="d">
+					Halve your burger buns and lightly toast them on the griddle or in the pan. Also great with a chopped salad.
+				</p>
+			</div>
   		</div>
-  		
-  	</section>
-
-  	<section class="video-recipe-section223"> <!-- miðju dæmið með shitload af sushi rolls -->
-  		<p>Want some moving stuff</p>
-  		<h2 class="h2VR223"> Check out our latest <span>video recipes<span></h2>
-
-  		<div class="flexDV223 containerVideoz223">
-  			<div class="card223"> 
-  				<img src="../img/Image-Video.png" class="recipeVideo223">
-  				<div class="cardText223">
-  					<p>September</p>
-          </div>
-  					<div class="flex cardText2223">
-  						<h4>Lax sushi rolls</h4>
-  						<p>read more </p>
-  					</div>
-  			</div>
-  			<div class="card223">
-  				<img src="../img/almond-cookies.png" class="recipeVideo223">
-  				<div class="cardText223">
-  					<p>August</p>
-          </div>
-  					<div class="flex cardText2223">
-  						<h4>Blossoming cookie</h4>
-  						<p>read more </p>
-  					</div>
-      </div>
-  			<div class="card223">
-  				<img src="../img/blueberry.png" class="recipeVideo223">
-  				<div class="cardText223">
-  					<p>August</p>
-          </div>
-  					<div class="flex cardText2223">
-  						<h4>Questches pie</h4>
-  						<p>read more </p>
-  					</div>
-  			</div>
   		</div>
-
-      <div class="containerBtn223 flex223">
-        <div class="line223"></div>
-        <img src="../img/See More - Button.svg" class="morebtn223">
-        <div class="line223"></div>
+		<div class="Video-section">
+      <div class="Video-section-grid grid">
+        <div class="Video-section-text col col-12">
+          <div class="Video-section-kicker kicker">Want some moving stuff</div>
+          <div class="Video-section-kicker-small kicker">Want some moving stuff</div>
+          <div class="Video-section-title"><h2>Check out our <span>video recipes</span></h2></div>
+          <div class="Video-section-title-small"><h2>Check out our <span>video recipes</span></h2></div>
+        </div>
+        <div class="row">
+          <div class="col col-4 col-md-6 col-sm-12">
+            <div class="recipe">
+              <div class="recipe-image"><img src="../img/Image-video.png" class="image2"></div>
+              <div class="recipe-kicker">September</div>
+              <div class="recipe-text">
+                <div class="recipe-text-title">Lax sushi rolls</div>
+                <div class="recipe-text-button"><a href="#">Read more</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="col col-4 col-md-6 col-sm-12">
+            <div class="recipe">
+              <div class="recipe-image"><img src="../img/almond-cookies.png" class="image2"></div>
+              <div class="recipe-kicker">August</div>
+              <div class="recipe-text">
+                <div class="recipe-text-title">Blossoming cookie</div>
+                <div class="recipe-text-button"><a href="#">Read more</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="col col-4 col-md-6 col-sm-12">
+            <div class="recipe">
+              <div class="recipe-image"><img src="../img/blueberry.png" class="image2"></div>
+              <div class="recipe-kicker">August</div>
+              <div class="recipe-text">
+                <div class="recipe-text-title">Questches pie</div>
+                <div class="recipe-text-button"><a href="#">Read more</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="see-more">
+          <div class="rect1"></div>
+          <button class="button"><img src="../img/See More - Button.svg" alt="See more"></button>
+          <div class="rect2"></div>
+        </div>
       </div>
+    </div>
+		</div>
 
-
-  	</section>
+  	
+	</main>
 	<!-- Footer Starts Here -->
 	   <div class="prefooter">
 	   	<div class="grid flexy">
