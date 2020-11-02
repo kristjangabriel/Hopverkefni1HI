@@ -1,8 +1,5 @@
-.bodyVR{
-
-	width: 1600px;
-	margin-left:auto;
-	margin-right:auto;
+.zHeader{
+	
 }
 
 .flex {
@@ -11,17 +8,21 @@
 
 /*hero section*/
 .mainVR{
-	background: linear-gradient(270deg, rgba(0, 0, 0, 0.0001) 0%, #000000 100%), url(../img/67b35cb3b5600db0e84db750b8bc17ce.png), black;
+	background: linear-gradient(270deg, rgba(0, 0, 0, 0.0001) 0%, #000000 100%), url(../img/67b35cb3b5600db0e84db750b8bc17ce.png);
 	background-repeat: no-repeat;
 	background-position: right;
-	background-size: 1600px 570px, 1000px 570px;
+	background-size:contain;
+	background-size: 1500px 570px, 1500px 570px;
+	position:relative;
 	height:570px;
+	width:100%;
+	padding-top:180px;
 
 }
 .textiVideo{
 	width:400px;
-	padding-top:125px;
-	margin-left: 150px;
+	padding-top:50px;
+	padding-left: 150px;
 
 	h1{
 	color:white;
@@ -31,8 +32,8 @@
 }
 .textimgv{
 	color:white;
-	margin-right:10px;
-	margin-left:10px;
+	padding-right:10px;
+	padding-left:10px;
 }
 .textV{
 	width:450px;
@@ -47,21 +48,22 @@
 .playbtn{
 	height:138px;
 	width: 138px;
-	margin-top:200px;
-	margin-left:400px;
+	margin-top:120px;
+	margin-left:300px;
 
 }
 
 /* method */
 .methodcontainer{
+	margin-top: 100px;
 	margin-bottom: 60px;
 }
 
 .methodleft{
-	width:300px;
-	height:500px;
+	width: 300px;
+	height: 500px;
 	padding-left: 150px;
-	padding-bottom:0px;
+	padding-bottom: 0px;
 	justify-content: center;
 
 	div{
@@ -69,14 +71,14 @@
 	}
 
 	h4{
-	color:rgba(208, 208, 208, 1);
+	color: rgba(208, 208, 208, 1);
 	font-size: 2.5rem;
-	height:20px;
 	}
 }
+
 .ingredientsFor{
-	height:0px;
-	margin-top:1rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
 	font-size: 1.05rem;
 }
 .recipeDesc{
@@ -97,7 +99,7 @@
 }
 .methodright{	
 	width:100%;
-	padding-left: 250px;
+	padding-left: 185px;
 	padding-right: 150px;
 	line-height: 30px;
 	font-size: 1.05rem;
@@ -105,6 +107,7 @@
 	h4{
 	color:rgba(208, 208, 208, 1);
 	font-size:2.5rem;
+	margin-bottom:25px;
 	}
 }
 
