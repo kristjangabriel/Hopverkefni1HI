@@ -10,21 +10,31 @@
 </head>
 <body>
   <header id="myHeader">
-    <div class="grid sticky">
+    <div class="grid">
       <div class ="navigation">
         <div class ="logo">
           <a href="../index.html"><img src="../img/Logotype.svg" alt="Yum&Yum"></a>
         </div>
         <nav class="links">
           <ul>
-            <a href="#"><li>Recipes</li></a>
+            <a href="../pages/latestRecipes.html"><li>Recipes</li></a>
             <a href="#"><li>Videos</li></a>
             <a href="#"><li>About us</li></a>
           </ul>
         </nav>
+        <nav onclick="dropdown()" class="burger-menu" id="burger-menu">
+          <div id="dropdownLinks" class="dropdown-content">
+            <div class="dropdown-container">
+              <a href="../index.html">Home</a>
+              <a href="../pages/latestRecipes.html">Recipes</a>
+              <a href="#">Videos</a>
+              <a href="#">About us</a>
+            </div>
+          </div>
+        </nav>
       </div>
     </div>
-	</header>
+  </header>
 	<!-- Navigation Bar Ends Here -->
 
 	<div class="Recipe-Title">
