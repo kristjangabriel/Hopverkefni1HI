@@ -33,6 +33,7 @@
 			}
 		}
 		.Recipe-things{
+			
 			display:flex;
 			padding-top:21px;
 			@media (max-width: 800px) {
@@ -41,6 +42,9 @@
 				.a{
 					display:flex;
 				}
+			}
+			.a{
+				display:flex;
 			}
 			p{
 				padding-right:36px;
@@ -155,6 +159,18 @@
 		}
 		.m{
 			margin-bottom: 45px; 
+		}
+	}
+	.method{
+		@media (max-width: 800px) {
+			.a{
+				display:none;
+			}
+		}
+		@media (min-width: 800px) {
+			.b{
+				display:none;
+			}
 		}
 	}
 }
