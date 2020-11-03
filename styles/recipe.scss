@@ -179,8 +179,7 @@
 
 }
 .Videot-section {
-		background-image: url(../img/Video.png);
-		background-image: linear-gradient(to right, #000 0px, #000 540px, #000 540px 100%, rgba(0, 0, 0, 0.0001) 0%), url(../img/Video.png);
+		background: linear-gradient(270deg, rgba(0, 0, 0, 0.0001) 0%, #000000 100%), url(../img/Video.png);
 		background-repeat: no-repeat;
 		background-position: bottom right;
 		background-color: #000;
